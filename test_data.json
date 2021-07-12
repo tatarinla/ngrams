@@ -1,0 +1,14 @@
+{
+    "single_word":
+    {
+        "id": 1,
+        "message": "zebra",
+        "expected_result": {"zebra":  1}
+    },
+    "one_word_many_times":
+    {
+        "id": 2,
+        "message": "dog dog dog",
+        "expected_result": {"dog": 3}
+    }
+}
